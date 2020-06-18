@@ -35,7 +35,7 @@ module load python3/3.7.5
 
 /appl/cuda/10.2/samples/NVIDIA_CUDA-10.2_Samples/bin/x86_64/linux/release/deviceQuery
 
-python3 train.py --name gland128 --ngf 8 --resize_or_crop none --gpu_ids=-1 --dataroot=/zhome/95/c/135723/Datasets/Warwick_QU_Dataset_HD_test/ --loadSize 256 --fineSize 128 --input_nc 1 --no_instance
+python3 train.py --name gland128 --ngf 8 --resize_or_crop none --dataroot=/zhome/95/c/135723/Datasets/Warwick_QU_Dataset_HD_test/ --loadSize 256 --fineSize 128 --input_nc 1 --no_instance
 
 
 
