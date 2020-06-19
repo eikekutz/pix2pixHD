@@ -3,7 +3,7 @@
 ### –- specify queue --
 #BSUB -q gpuv100
 ### -- set the job Name --
-#BSUB -J ResUPAN-gld
+#BSUB -J pix2pixhd
 ### -- ask for number of cores (default: 1) --
 #BSUB -n 1
 ### -- Select the resources: 1 gpu in exclusive process mode --
@@ -35,7 +35,8 @@ module load python3/3.7.5
 
 /appl/cuda/10.2/samples/NVIDIA_CUDA-10.2_Samples/bin/x86_64/linux/release/deviceQuery
 
-python3 train.py --name gland128 --ngf 8 --resize_or_crop none --dataroot=/zhome/95/c/135723/Datasets/Warwick_QU_Dataset_HD_test/ --input_nc 1 --no_instance
+#python3 train.py --name gland128 --ngf 8 --resize_or_crop none --dataroot=/zhome/95/c/135723/Datasets/Warwick_QU_Dataset_HD_test/ --input_nc 1 --no_instance
+python3 train.py --name drive --ngf 8 --resize_or_crop none --dataroot=/zhome/95/c/135723/Datasets/DRIVE_HD/training/ --input_nc 1 --no_instance
 
 
 
