@@ -42,7 +42,7 @@ class AlignedDataset(BaseDataset):
             A_tensor = transform_A(A.convert('L'))
         else:
             transform_A = get_transform(self.opt, params, method=Image.NEAREST, normalize=False)
-            A_tensor = transform_A(A) * 255.0
+            A_tensor = transform_A(A.convert('L')) * 255.0
 
         B_tensor = inst_tensor = feat_tensor = 0
         ### input B (real images)
