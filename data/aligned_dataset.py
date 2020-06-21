@@ -39,7 +39,7 @@ class AlignedDataset(BaseDataset):
         params = get_params(self.opt, A.size)
         if self.opt.label_nc == 0:
             transform_A = get_transform(self.opt, params)
-            A_tensor = transform_A(A.convert('RGB'))
+            A_tensor = transform_A(A.convert('L'))
         else:
             transform_A = get_transform(self.opt, params, method=Image.NEAREST, normalize=False)
             A_tensor = transform_A(A) * 255.0
