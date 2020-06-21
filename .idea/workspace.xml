@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d7032949-6611-40e9-bad7-af48b881500c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initial_test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/initial_test.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,30 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pix2pixHD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/pix2pixHD/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="--name drive --ngf 8 --resize_or_crop none --dataroot=$USER_HOME$/Datasets/Warwick_QU_Dataset_HD_test --input_nc 1 --no_instance --nThreads 1 --gpu_ids -1" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -34,11 +59,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592476449852</updated>
-      <workItem from="1592476455557" duration="2101000" />
+      <workItem from="1592476455557" duration="3399000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="426" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592727901561">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="426" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1280@0.0.2048.1280" timestamp="1592727901561" />
+    <state width="2006" height="370" key="GridCell.Tab.0.bottom" timestamp="1592558790266">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="370" key="GridCell.Tab.0.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1592558790266" />
+    <state width="2006" height="370" key="GridCell.Tab.0.center" timestamp="1592558790264">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="370" key="GridCell.Tab.0.center/0.0.2048.1280@0.0.2048.1280" timestamp="1592558790264" />
+    <state width="2006" height="370" key="GridCell.Tab.0.left" timestamp="1592558790263">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="370" key="GridCell.Tab.0.left/0.0.2048.1280@0.0.2048.1280" timestamp="1592558790263" />
+    <state width="2006" height="370" key="GridCell.Tab.0.right" timestamp="1592558790265">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="370" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1592558790265" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pix2pixHD$train.coverage" NAME="train Coverage Results" MODIFIED="1592558696567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
