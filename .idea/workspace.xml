@@ -40,7 +40,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
-      <option name="PARAMETERS" value="--name drive --ngf 8 --resize_or_crop none --dataroot=$USER_HOME$/Datasets/Warwick_QU_Dataset_HD_test --input_nc 1 --no_instance --nThreads 1 --gpu_ids -1" />
+      <option name="PARAMETERS" value="--name drive --ngf 8 --resize_or_crop none --dataroot=$USER_HOME$/Datasets/DRIVE_HD --input_nc 1 --no_instance --nThreads 1 --gpu_ids -1" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -59,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592476449852</updated>
-      <workItem from="1592476455557" duration="3399000" />
+      <workItem from="1592476455557" duration="4242000" />
     </task>
     <servers />
   </component>
@@ -67,28 +67,44 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="426" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592727901561">
-      <screen x="0" y="0" width="2048" height="1280" />
+    <state x="426" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592728374654">
+      <screen x="0" y="23" width="2048" height="1188" />
     </state>
     <state x="426" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1280@0.0.2048.1280" timestamp="1592727901561" />
-    <state width="2006" height="370" key="GridCell.Tab.0.bottom" timestamp="1592558790266">
-      <screen x="0" y="0" width="2048" height="1280" />
+    <state x="426" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2048.1188@0.23.2048.1188" timestamp="1592728374654" />
+    <state width="981" height="410" key="GridCell.Tab.0.bottom" timestamp="1592728764939">
+      <screen x="0" y="23" width="2048" height="1188" />
     </state>
     <state width="2006" height="370" key="GridCell.Tab.0.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1592558790266" />
-    <state width="2006" height="370" key="GridCell.Tab.0.center" timestamp="1592558790264">
-      <screen x="0" y="0" width="2048" height="1280" />
+    <state width="981" height="410" key="GridCell.Tab.0.bottom/0.23.2048.1188@0.23.2048.1188" timestamp="1592728764938" />
+    <state width="981" height="410" key="GridCell.Tab.0.center" timestamp="1592728764937">
+      <screen x="0" y="23" width="2048" height="1188" />
     </state>
     <state width="2006" height="370" key="GridCell.Tab.0.center/0.0.2048.1280@0.0.2048.1280" timestamp="1592558790264" />
-    <state width="2006" height="370" key="GridCell.Tab.0.left" timestamp="1592558790263">
-      <screen x="0" y="0" width="2048" height="1280" />
+    <state width="981" height="410" key="GridCell.Tab.0.center/0.23.2048.1188@0.23.2048.1188" timestamp="1592728764937" />
+    <state width="981" height="410" key="GridCell.Tab.0.left" timestamp="1592728764937">
+      <screen x="0" y="23" width="2048" height="1188" />
     </state>
     <state width="2006" height="370" key="GridCell.Tab.0.left/0.0.2048.1280@0.0.2048.1280" timestamp="1592558790263" />
-    <state width="2006" height="370" key="GridCell.Tab.0.right" timestamp="1592558790265">
-      <screen x="0" y="0" width="2048" height="1280" />
+    <state width="981" height="410" key="GridCell.Tab.0.left/0.23.2048.1188@0.23.2048.1188" timestamp="1592728764937" />
+    <state width="981" height="410" key="GridCell.Tab.0.right" timestamp="1592728764938">
+      <screen x="0" y="23" width="2048" height="1188" />
     </state>
     <state width="2006" height="370" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1592558790265" />
+    <state width="981" height="410" key="GridCell.Tab.0.right/0.23.2048.1188@0.23.2048.1188" timestamp="1592728764938" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data/aligned_dataset.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pix2pixHD$train.coverage" NAME="train Coverage Results" MODIFIED="1592558696567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pix2pixHD$train.coverage" NAME="train Coverage Results" MODIFIED="1592728764923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
