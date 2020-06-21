@@ -30,8 +30,8 @@
 
 nvidia-smi
 # Load the cuda module
-module load cuda/10.2
-module load cudnn/v7.6.5.32-prod-cuda-10.2
+module load cuda/10.1
+module load cudnn/v7.6.5.32-prod-cuda-10.1
 module load python3/3.7.5
 
 /appl/cuda/10.2/samples/NVIDIA_CUDA-10.2_Samples/bin/x86_64/linux/release/deviceQuery
