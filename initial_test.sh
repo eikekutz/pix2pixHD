@@ -37,7 +37,7 @@ module load python3/3.7.5
 /appl/cuda/10.2/samples/NVIDIA_CUDA-10.2_Samples/bin/x86_64/linux/release/deviceQuery
 
 #python3 train.py --name gland128 --ngf 8 --resize_or_crop none --dataroot=/zhome/95/c/135723/Datasets/Warwick_QU_Dataset_HD_test/ --input_nc 1 --no_instance
-#python3 train.py --name drive  --dataroot=/zhome/95/c/135723/Datasets/DRIVE_HD/ --no_instance --nThreads 1 --label_nc=0 --resize_or_crop resize_and_crop --gpu_ids 0 --loadSize=260 --fineSize=256
-python3 train.py --name gland_512  --dataroot=/zhome/95/c/135723/Datasets/Warwick_QU_Dataset_HD/ --no_instance --nThreads 1 --label_nc=0 --resize_or_crop resize_and_crop --gpu_ids 0 --loadSize=520 --fineSize=512
+python3 train.py --name drive  --dataroot=/zhome/95/c/135723/Datasets/DRIVE_HD/ --no_instance --nThreads 1 --label_nc=0 --resize_or_crop resize_and_crop --gpu_ids 0 --loadSize=260 --fineSize=256 --niter=200 --niter_decay=200
+#python3 train.py --name gland_512  --dataroot=/zhome/95/c/135723/Datasets/Warwick_QU_Dataset_HD/ --no_instance --nThreads 1 --label_nc=0 --resize_or_crop resize_and_crop --gpu_ids 0 --loadSize=256 --fineSize=256
 
 
