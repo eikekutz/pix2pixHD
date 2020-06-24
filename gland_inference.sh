@@ -36,6 +36,6 @@ module load python3/3.7.5
 
 /appl/cuda/10.2/samples/NVIDIA_CUDA-10.2_Samples/bin/x86_64/linux/release/deviceQuery
 
-python3 test.py --name gland  --dataroot=/zhome/95/c/135723/Datasets/Warwick_QU_Dataset_HD/real --no_instance --nThreads 1 --label_nc=0 --resize_or_crop none --gpu_ids 0 --loadSize=256 --fineSize=256 --results_dir=/zhome/95/c/135723/Datasets/Warwick_QU_Dataset_HD/real --how_many=80
+python3 test.py --name gland  --dataroot=/zhome/95/c/135723/Datasets/Warwick_QU_Dataset_HD/real --no_instance --nThreads 1 --label_nc=0 --resize_or_crop resize_and_crop --gpu_ids 0 --loadSize=256 --fineSize=256 --results_dir=/zhome/95/c/135723/Datasets/Warwick_QU_Dataset_HD/real --how_many=80
 
 
