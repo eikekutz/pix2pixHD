@@ -3,11 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="d7032949-6611-40e9-bad7-af48b881500c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/aligned_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/aligned_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gland_inference.sh" beforeDir="false" afterPath="$PROJECT_DIR$/gland_inference.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/image_pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/image_pool.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,7 +39,29 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.sep_dir">
+    <configuration name="sep_dir" type="PythonConfigurationType" factoryName="Python">
+      <module name="pix2pixHD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/pix2pixHD/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seperate_rand.py" />
+      <option name="PARAMETERS" value="--dataroot_old=$USER_HOME$/Datasets/Warwick_QU_Dataset_HD_test/comb/train_A --dataroot_new=$USER_HOME$/Datasets/Warwick_QU_Dataset_HD_test/" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="train" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pix2pixHD" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -52,6 +84,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.train" />
+      <item itemvalue="Python.sep_dir" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -65,7 +101,9 @@
       <updated>1592476449852</updated>
       <workItem from="1592476455557" duration="11498000" />
       <workItem from="1592985814897" duration="11169000" />
-      <workItem from="1593067764227" duration="6682000" />
+      <workItem from="1593067764227" duration="9661000" />
+      <workItem from="1593414101734" duration="2294000" />
+      <workItem from="1593779066227" duration="5803000" />
     </task>
     <servers />
   </component>
@@ -73,58 +111,78 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="426" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592728374654">
-      <screen x="0" y="23" width="2048" height="1188" />
+    <state x="466" y="289" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593932081754">
+      <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state x="426" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1280@0.0.2048.1280" timestamp="1592727901561" />
+    <state x="466" y="289" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1280@0.0.2048.1280" timestamp="1593932081754" />
     <state x="426" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2048.1188@0.23.2048.1188" timestamp="1592728374654" />
-    <state width="2006" height="410" key="GridCell.Tab.0.bottom" timestamp="1592828583434">
-      <screen x="0" y="23" width="2048" height="1188" />
+    <state x="426" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/57.-1080.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1593785415735" />
+    <state width="2006" height="393" key="GridCell.Tab.0.bottom" timestamp="1593934956105">
+      <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state width="2006" height="370" key="GridCell.Tab.0.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1592558790266" />
+    <state width="2006" height="393" key="GridCell.Tab.0.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1593934956105" />
     <state width="2006" height="172" key="GridCell.Tab.0.bottom/0.23.2048.1188@0.23.2048.1188" timestamp="1592762240045" />
+    <state width="2006" height="393" key="GridCell.Tab.0.bottom/57.-1057.1920.1057/0.0.2048.1211@0.0.2048.1211" timestamp="1593787214452" />
     <state width="2006" height="410" key="GridCell.Tab.0.bottom/57.-1057.1920.1057/0.23.2048.1188@0.23.2048.1188" timestamp="1592828583434" />
-    <state width="2006" height="410" key="GridCell.Tab.0.center" timestamp="1592828583431">
-      <screen x="0" y="23" width="2048" height="1188" />
+    <state width="2006" height="393" key="GridCell.Tab.0.bottom/57.-1080.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1593786996033" />
+    <state width="2006" height="393" key="GridCell.Tab.0.center" timestamp="1593934956103">
+      <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state width="2006" height="370" key="GridCell.Tab.0.center/0.0.2048.1280@0.0.2048.1280" timestamp="1592558790264" />
+    <state width="2006" height="393" key="GridCell.Tab.0.center/0.0.2048.1280@0.0.2048.1280" timestamp="1593934956103" />
     <state width="2006" height="172" key="GridCell.Tab.0.center/0.23.2048.1188@0.23.2048.1188" timestamp="1592762240044" />
+    <state width="2006" height="393" key="GridCell.Tab.0.center/57.-1057.1920.1057/0.0.2048.1211@0.0.2048.1211" timestamp="1593787214450" />
     <state width="2006" height="410" key="GridCell.Tab.0.center/57.-1057.1920.1057/0.23.2048.1188@0.23.2048.1188" timestamp="1592828583431" />
-    <state width="2006" height="410" key="GridCell.Tab.0.left" timestamp="1592828583431">
-      <screen x="0" y="23" width="2048" height="1188" />
+    <state width="2006" height="393" key="GridCell.Tab.0.center/57.-1080.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1593786996031" />
+    <state width="2006" height="393" key="GridCell.Tab.0.left" timestamp="1593934956102">
+      <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state width="2006" height="370" key="GridCell.Tab.0.left/0.0.2048.1280@0.0.2048.1280" timestamp="1592558790263" />
+    <state width="2006" height="393" key="GridCell.Tab.0.left/0.0.2048.1280@0.0.2048.1280" timestamp="1593934956102" />
     <state width="2006" height="172" key="GridCell.Tab.0.left/0.23.2048.1188@0.23.2048.1188" timestamp="1592762240043" />
+    <state width="2006" height="393" key="GridCell.Tab.0.left/57.-1057.1920.1057/0.0.2048.1211@0.0.2048.1211" timestamp="1593787214449" />
     <state width="2006" height="410" key="GridCell.Tab.0.left/57.-1057.1920.1057/0.23.2048.1188@0.23.2048.1188" timestamp="1592828583431" />
-    <state width="2006" height="410" key="GridCell.Tab.0.right" timestamp="1592828583432">
-      <screen x="0" y="23" width="2048" height="1188" />
+    <state width="2006" height="393" key="GridCell.Tab.0.left/57.-1080.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1593786996029" />
+    <state width="2006" height="393" key="GridCell.Tab.0.right" timestamp="1593934956104">
+      <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state width="2006" height="370" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1592558790265" />
+    <state width="2006" height="393" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1593934956104" />
     <state width="2006" height="172" key="GridCell.Tab.0.right/0.23.2048.1188@0.23.2048.1188" timestamp="1592762240044" />
+    <state width="2006" height="393" key="GridCell.Tab.0.right/57.-1057.1920.1057/0.0.2048.1211@0.0.2048.1211" timestamp="1593787214451" />
     <state width="2006" height="410" key="GridCell.Tab.0.right/57.-1057.1920.1057/0.23.2048.1188@0.23.2048.1188" timestamp="1592828583432" />
+    <state width="2006" height="393" key="GridCell.Tab.0.right/57.-1080.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1593786996032" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/data/aligned_dataset.py</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/data/aligned_dataset.py</url>
-          <line>41</line>
+          <line>42</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/data/aligned_dataset.py</url>
-          <line>44</line>
+          <line>45</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/seperate_rand.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/seperate_rand.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pix2pixHD$sep_dir.coverage" NAME="sep_dir Coverage Results" MODIFIED="1593934172207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pix2pixHD$train.coverage" NAME="train Coverage Results" MODIFIED="1592741899243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
