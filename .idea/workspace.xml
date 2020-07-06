@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d7032949-6611-40e9-bad7-af48b881500c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/aligned_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/aligned_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gland_inference.sh" beforeDir="false" afterPath="$PROJECT_DIR$/gland_inference.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/image_pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/image_pool.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <workItem from="1592985814897" duration="11169000" />
       <workItem from="1593067764227" duration="9661000" />
       <workItem from="1593414101734" duration="2294000" />
-      <workItem from="1593779066227" duration="5803000" />
+      <workItem from="1593779066227" duration="6389000" />
     </task>
     <servers />
   </component>
