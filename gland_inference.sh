@@ -13,7 +13,6 @@
 # request 5GB of system-memory
 #BSUB -R "rusage[mem=10GB]"
 # select the amount of GPU memory needed
-#BSUB -R "select[gpu32gb]"
 ### -- set the email address --
 # please uncomment the following line and put in your e-mail address,
 # if you want to receive e-mail notifications on a non-default address
