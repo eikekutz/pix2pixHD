@@ -213,13 +213,13 @@ class Pix2PixHDModel(BaseModel):
             input_concat = torch.cat((input_label, feat_map), dim=1)
         else:
             input_concat = input_label
-        self.netG.eval()
+        # self.netG.eval()
         if torch.__version__.startswith('0.4'):
             with torch.no_grad():
                 fake_image = self.netG.forward(input_concat)
         else:
             fake_image = self.netG.forward(input_concat)
-        self.netG.train()
+        # self.netG.train()
         return fake_image
 
     def sample_features(self, inst):
